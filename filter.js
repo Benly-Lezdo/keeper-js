@@ -50,6 +50,6 @@ const bb = [
   { value: 3, label: "ddd" },
 ];
 
-const dd = bb.find((i) => i.value == 3); 
+const dd = bb.find((i) => i.value == 3);
 const cc = aa.filter((i) => i.id == dd.value).map((e) => e.name);
 console.log("cc", cc);
