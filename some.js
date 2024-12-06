@@ -22,7 +22,7 @@ const user = [
 ];
 
 const res = user.some((item) => item.ticket == true);
-// console.log("res", res);
+console.log("res", res);
 
 // example 2
 const v = [20, 21, 22, 23, 30, 31, 50];
