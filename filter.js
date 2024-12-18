@@ -1,6 +1,6 @@
 // filter the data from array, and all common data only will be in o/p while using filter method
 
-// example 1
+// example 1 =>
 const val1 = [
   { id: 1, value: "hai" },
   { id: 1, value: "hello" },
