@@ -31,13 +31,13 @@ console.log(fruits);
 // Common Algorithms
 // Traversing
 for (let i = 0; i < fruits.length; i++) {
-    // console.log(fruits[i]);
+    console.log(fruits[i]);
 }
 
 // Inserting
 // to add an item at specific position
 fruits.splice(2,0,"kiwi")
-// console.log(fruits);
+console.log(fruits);
 
 // Deleting
 // to delete an item at specific position
