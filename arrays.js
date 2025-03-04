@@ -42,4 +42,4 @@ console.log(fruits);
 // Deleting
 // to delete an item at specific position
 fruits.splice(1,1);
-// console.log(fruits);
+console.log(fruits);
