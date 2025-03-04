@@ -2,12 +2,12 @@ const fruits = ["apple", "banana", "cherry"]; //length = 3
 //                0         1         2       index
 
 // Accesssing elements
-// console.log(fruits[0]); //apple
-// console.log(fruits[1]); //banana
+console.log(fruits[0]); //apple
+console.log(fruits[1]); //banana
 
 // Update elements
 fruits[2] = "blueberry";
-// console.log(fruits)
+console.log(fruits)
 
 // Find the number of elements 
 // console.log(fruits.length) // 3
