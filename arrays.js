@@ -10,14 +10,14 @@ fruits[2] = "blueberry";
 console.log(fruits)
 
 // Find the number of elements 
-// console.log(fruits.length) // 3
+console.log(fruits.length) // 3
 
 //## Dynamic Arrays in JS
 // Javascript arrays are dynamic, meaning they can grow or shrink in size as needed
 
 // Adding Elements
 fruits.push("orange"); // to the end , push the value
-// console.log(fruits);
+console.log(fruits);
 // fruits.unshift("strawberry"); // to the beginning , push the value
 // console.log(fruits);
 
