@@ -19,13 +19,13 @@ console.log(fruits.length) // 3
 fruits.push("orange"); // to the end , push the value
 console.log(fruits);
 // fruits.unshift("strawberry"); // to the beginning , push the value
-// console.log(fruits);
+console.log(fruits);
 
 // Removing Elements
 fruits.pop(); //Removes the elements, from the end
-// console.log(fruits);
+console.log(fruits);
 fruits.shift(); //Removes the elements, from the start
-// console.log(fruits);
+console.log(fruits);
 
 
 // Common Algorithms
