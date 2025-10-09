@@ -17,7 +17,7 @@ const numbers = [1, 2, 3, 4, 100, 88, 77];
 const max = Math.max(...numbers);
 
 // Remove it
-const result = numbers.filter(num => num !== max);
+const result = numbers.filter((num) => num !== max);
 
 console.log(result); // [1, 2, 3, 4, 88, 77]
 
@@ -28,6 +28,6 @@ const numbersList = [1, 2, 3, 4, 100, 88, 77];
 const min = Math.min(...numbersList);
 
 // Remove it
-const resultNew = numbersList.filter(num => num !== min);
+const resultNew = numbersList.filter((num) => num !== min);
 
 console.log(resultNew); // [2, 3, 4, 100, 88, 77]
