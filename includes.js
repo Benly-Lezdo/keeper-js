@@ -113,3 +113,7 @@ console.log(filteredData);
 const vv = 'reddit'
 const cc = 'R'
 console.log(vv.toLowerCase().includes(cc.toLowerCase()))
+
+const vvv = 'rEDdit'
+const ccc = 'reDDiT'
+console.log(vvv.toLowerCase().includes(ccc.toLowerCase()))
