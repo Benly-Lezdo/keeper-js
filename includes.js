@@ -108,3 +108,8 @@ const filteredData = d.filter((item) =>
   item.value.toLowerCase().includes(v.toLowerCase()),
 );
 console.log(filteredData);
+
+// example 5 =>
+const vv = 'reddit'
+const cc = 'R'
+console.log(vv.toLowerCase().includes(cc.toLowerCase()))
