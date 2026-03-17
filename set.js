@@ -1,4 +1,4 @@
-// rempve the duplicate values
+// remove the duplicate values
 
 // example => 1
 const vv = [1, 2, 3, 1, 2, 5, "xx", "yy", "xx"];
