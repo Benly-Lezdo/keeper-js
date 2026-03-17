@@ -1,5 +1,6 @@
 // find the data from array, only one data only will be in o/p while using find method
 // use && => both a and b , || any one a or b
+// in find method we can remove the array also
 
 // example 1 => one condtion
 const val1 = [
@@ -71,3 +72,7 @@ const bbb = [
 const ddd = bbb.find((i) => i.value == dddd);
 const ccc = aaa.filter((i) => i.id == ddd.value).map((e) => e.name);
 console.log("ccc", ccc);
+
+// example => 6 remove the array and give only the object
+const vv = [{ id: 1, name: "Duck" }];
+console.log(vv.find((e) => e.id));
