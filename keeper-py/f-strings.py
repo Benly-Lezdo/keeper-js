@@ -1,7 +1,8 @@
 # f-strings in python
+# It uses an f-string to format and print variables (name and age) inside a sentence in a clean, readable way.
 
 # example => 1
-name = 'Om'
+name = "Om"
 age = 22
 print(f"Hello, My name is {name} and I'm {age} years old.")
 
