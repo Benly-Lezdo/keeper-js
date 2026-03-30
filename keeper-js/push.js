@@ -21,8 +21,16 @@ console.log(names);
 // example => 4
 const numberLoop = [];
 for (let i = 1; i <= 5; i++) {
-    numberLoop.push(i);
+  numberLoop.push(i);
 }
 console.log(numberLoop);
 
+// example => 5
+const items = [
+  { id: 1, name: "Apple" },
+  { id: 2, name: "bSDQx" },
+  { id: 3, name: "chRY" },
+];
 
+console.log([...items, { id: 3, name: "dd" }]); // <= method 1
+console.log(items, { id: 3, name: "dd" }); // <= method 2
